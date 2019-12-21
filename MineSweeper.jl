@@ -191,14 +191,12 @@ function gameloop(boards::Array)
                 mines += 1
             end
         end
-        println(mines)
 
         for i in eachindex(boards[:,:,2])
             if boards[i+rows*columns] != nothing
                 blanks -= 1
             end
         end
-        println(blanks)
 
 
         if blanks == mines
