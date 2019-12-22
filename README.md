@@ -29,7 +29,7 @@ uncover all safe tiles.
 
 >Lose screen
 
-![](images/image_6.png)
+![](images/Image_6.png)
 
 >Win screen
 
