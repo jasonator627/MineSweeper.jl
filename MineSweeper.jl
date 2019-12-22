@@ -160,6 +160,7 @@ function gameloop(boards::Array)
         y = parse(Int,readline())
         print("\n")
     end
+    println()
 
     while boards[columns - y + 1,x,1] != *
 
@@ -182,7 +183,7 @@ function gameloop(boards::Array)
             y = parse(Int,readline())
             print("\n")
         end
-
+        println()
         mines = 0
         blanks = rows*columns-1
 
@@ -197,7 +198,6 @@ function gameloop(boards::Array)
                 blanks -= 1
             end
         end
-
 
         if blanks == mines
             println("\n========")
