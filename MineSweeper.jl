@@ -213,5 +213,11 @@ function gameloop(boards::Array)
     println("========")
 
     @label escape
-    displayboard(boards[:,:,1])
+    for i in eachindex(boards[:,:,1])
+        if boards[i] == *
+            boards[i+64] = *
+        end
+    end
+    displayboard(boards[:,:,2])
+
 end
