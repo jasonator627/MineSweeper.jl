@@ -28,7 +28,7 @@ The player will continue to be prompted to enter in coordinates until they land 
 uncover all safe tiles.
 
 >Lose screen
-Only uncovered tiles and mines will be shown.
+
 ![](images/image_6.png)
 
 >Win screen
