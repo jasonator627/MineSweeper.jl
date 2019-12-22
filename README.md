@@ -25,11 +25,11 @@ uncovered will be shown.
 ![](images/image_3.png)
 
 The player will continue to be prompted to enter in coordinates until they land on a mine or 
-uncover all safe tiles. At the end of every game, the complete boards
+uncover all safe tiles.
 
 >Lose screen
-
-![](images/image_4.png)
+Only uncovered tiles and mines will be shown.
+![](images/image_6.png)
 
 >Win screen
 
