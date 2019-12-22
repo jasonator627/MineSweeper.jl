@@ -1,4 +1,4 @@
-# TextBasedMinesweeper
+# MineSweeper.jl
 A text-based minesweeper game using Julia.
 This version only has 2 available game modes: 8x8 and 16x16, but it is
 built to support other sizes as well. 
